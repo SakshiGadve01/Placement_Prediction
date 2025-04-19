@@ -44,11 +44,11 @@ if st.button("Predict Placement Status"):
     # Save to MySQL
     try:
         conn = mysql.connector.connect(
-            host="localhost",
-            user="root",
-            password="123456789",
-            database="Prediction",
-            auth_plugin='mysql_native_password'  # Optional, use only if needed
+            host="sql12.freesqldatabase.com",
+            user="sql12774118",
+            password="NNERx6q1T5",
+            database="sql12774118",
+            port=3306       # Optional, use only if needed
         )
         cursor = conn.cursor()
 
